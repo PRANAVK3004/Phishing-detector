@@ -3,14 +3,14 @@
 ![Screenshot 2025-02-03 194308](https://github.com/user-attachments/assets/cb11345f-29b7-4cd1-b476-e1f2abc7d2a8)
 ![Screenshot 2025-02-03 194159](https://github.com/user-attachments/assets/2075bd65-6d0c-4a04-87ef-a5762c9427ae)
 
-##Project Goal:
+## Project Goal:
 We're building a smart system to catch fake websites that try to steal your information. These fake sites often look just like real banking or shopping websites to trick people. We're using artificial intelligence and machine learning to automatically spot these dangerous copycats before they can harm anyone.
-#How We're Doing It:
-#Data Gathering:
+# How We're Doing It:
+# Data Gathering:
 We collected 5,000 known fake website addresses from PhishTank, a trusted source that tracks phishing scams
 We also gathered 5,000 legitimate website addresses from the University of New Brunswick's database
 This balanced mix helps our AI learn the difference between real and fake sites
-#Training Our AI:
+# Training Our AI:
 We teach our computer models to spot telltale signs of fake websites
 The AI learns patterns in website addresses and page content
 It gets better at distinguishing between legitimate and dangerous sites over time
