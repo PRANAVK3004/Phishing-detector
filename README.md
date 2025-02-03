@@ -3,16 +3,19 @@
 ![Screenshot 2025-02-03 194308](https://github.com/user-attachments/assets/cb11345f-29b7-4cd1-b476-e1f2abc7d2a8)
 ![Screenshot 2025-02-03 194159](https://github.com/user-attachments/assets/2075bd65-6d0c-4a04-87ef-a5762c9427ae)
 
-
-## Objective
-A phishing website is a common social engineering method that mimics trustful uniform resource locators (URLs) and webpages. The objective of this project is to train machine learning models and deep neural nets on the dataset created to predict phishing websites. Both phishing and benign URLs of websites are gathered to form a dataset and from them required URL and website content-based features are extracted. The performance level of each model is measures and compared.
-
-## Data Collection
-The set of phishing URLs are collected from opensource service called **PhishTank**. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the data: https://www.phishtank.com/developer_info.php. From this dataset, 5000 random phishing URLs are collected to train the ML models.
-
-The legitimate URLs are obatined from the open datasets of the University of New Brunswick, https://www.unb.ca/cic/datasets/url-2016.html. This dataset has a collection of benign, spam, phishing, malware & defacement URLs. Out of all these types, the benign url dataset is considered for this project. From this dataset, 5000 random legitimate URLs are collected to train the ML models.
-
-
+##Project Goal:
+We're building a smart system to catch fake websites that try to steal your information. These fake sites often look just like real banking or shopping websites to trick people. We're using artificial intelligence and machine learning to automatically spot these dangerous copycats before they can harm anyone.
+#How We're Doing It:
+#Data Gathering:
+We collected 5,000 known fake website addresses from PhishTank, a trusted source that tracks phishing scams
+We also gathered 5,000 legitimate website addresses from the University of New Brunswick's database
+This balanced mix helps our AI learn the difference between real and fake sites
+#Training Our AI:
+We teach our computer models to spot telltale signs of fake websites
+The AI learns patterns in website addresses and page content
+It gets better at distinguishing between legitimate and dangerous sites over time
+Think of it like teaching a security guard to spot fake IDs - the more examples they see, the better they get at catching the fakes. Our AI works the same way, but it can check thousands of websites in seconds to keep users safe from scams.
+This project is especially relevant for banks like Union Bank of India, as it helps protect both the institution and its customers from phishing attacks.
 ## Feature Extraction
 The below mentioned category of features are extracted from the URL data:
 
